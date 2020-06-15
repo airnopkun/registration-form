@@ -1,1 +1,50 @@
-hello
+<!DOCTYPE html>
+<html>
+    <h1>My Registration Form</h1>
+    <form>
+        <label>
+            First Name:<input type="text" name="firstname">
+        </label>
+        <br></br>
+        <label>
+            Last Name:<input type="text" name="lastname">
+        </label>
+        <br></br>
+        <label>
+            Email:<input type="text" name="email">
+        </label>
+        <br></br>
+        <label>
+            Password:<input type="password" name="password">
+        </label>
+        <br></br>
+        <label>
+            Birthday:<input type="date" name="birthday">
+        </label>
+        <p>Gender</p>
+        <label>
+            Male<input type="radio" name="gender" value="male"> 
+        </label>
+        <label>
+            Female<input type="radio" name="gender" value="female">
+        </label>
+        <label>
+            Other<input type="radio" name="gender" value="Other">
+        </label>
+        <p>Short Description</p>
+        <label>
+            <textarea rows="4" cols="50" name="description"></textarea>
+        </label>
+        <br></br>
+        <label>
+            <select name="cars">
+                <option value="volvo">Mitsubishi</option>
+                <option value="saab">BMW</option>
+                <option value="opel">Honda</option>
+                <option value="audi">Tesla</option>
+            </select>
+        </label>
+        <br></br>
+        <input type="submit" value="Click here to register">
+    </form>
+</html>
